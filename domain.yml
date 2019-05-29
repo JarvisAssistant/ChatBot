@@ -1,0 +1,50 @@
+intents:
+  - intent_greet
+  - intent_goodbye
+  - intent_affirm
+  - intent_deny
+  - intent_mood_good
+  - intent_mood_bad
+
+actions:
+  - action_out_of_scope
+  - utter_how_help
+  - utter_goodbye
+  - utter_affirm
+  - utter_deny
+  - utter_ack_mood_good
+  - utter_ack_mood_bad
+
+templates:
+  utter_how_help:
+    - text: "Hello, Mr. Duran. Do you need anything?"
+    - text: "Greetings, sir. What can I do for you?"
+
+  utter_goodbye:
+    - text: "Goodbye, Mr. Duran."
+
+  utter_affirm:
+    - text: "Yes."
+    - text: "As you please."
+    - text: "As you wish."
+    - text: "Of course."
+
+  utter_deny:
+    - text: "No."
+
+  utter_ack_mood_good:
+    - text: "I'm glad."
+    - text: "That's great."
+
+  utter_ack_mood_bad:
+    - text: "Hope you feel better, sir."
+    - text: "Hopefully you'll feel better later."
+    - text: "Get better, sir."
+    - text: "Feel better, sir."
+
+
+
+
+
+
+

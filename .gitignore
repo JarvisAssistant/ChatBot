@@ -6,9 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# Other extensions
+*.dot
+
 # Distribution / packaging
 .Python
 build/
+models/
 develop-eggs/
 dist/
 downloads/

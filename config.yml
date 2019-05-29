@@ -1,0 +1,14 @@
+language: en
+pipeline: "pretrained_embeddings_spacy"
+policies:
+  - name: MemoizationPolicy
+    max_history: 5
+  - name: KerasPolicy
+    epochs: 200
+    batch_size: 50
+    max_training_samples: 300
+  - name: MappingPolicy
+  - name: "FallbackPolicy"
+    nlu_threshold: 0.3
+    core_threshold: 0.3
+    fallback_action_name: "action_out_of_scope"
