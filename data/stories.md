@@ -3,27 +3,35 @@
   - action_out_of_scope
 
 ## greet
-* intent_greet
+* greet
   - utter_how_help
 
+## goodbye
+* goodbye
+  - utter_goodbye
+
 ## affirm
-* intent_affirm
+* affirm
   - utter_affirm
 
 ## deny
-* intent_deny
+* deny
   - utter_deny
 
 ## mood good
-* intent_mood_good
+* mood_good
   - utter_ack_mood_good
 
 ## mood bad
-* intent_mood_bad
+* mood_bad
   - utter_ack_mood_bad
 
 ## greet and deny
-* intent_greet
+* greet
   - utter_how_help
-* intent_deny
+* deny
   - utter_affirm
+
+ ## get time
+ * get_time
+   - action_get_time

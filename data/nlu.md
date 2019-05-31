@@ -1,24 +1,19 @@
-## intent:intent_greet
-- hey jarvis
-- hi jarvis
-- hello jarvis
-- jarvis
+## intent:greet
+- hey
+- hi
 - hello
 - hi
 - good morning
-- good morning, jarvis
 - good evening
 - hey there
 
-## intent:intent_goodbye
+## intent:goodbye
 - bye
-- bye jarvis
 - goodbye
-- goodbye jarvis
 - see you around
 - see you later
 
-## intent:intent_affirm
+## intent:affirm
 - yes
 - indeed
 - of course
@@ -30,7 +25,7 @@
 - sure
 - why not
 
-## intent:intent_deny
+## intent:deny
 - no
 - never
 - I don't think so
@@ -39,8 +34,9 @@
 - not really
 - it's okay
 - it's fine
+- nothing
 
-## intent:intent_mood_good
+## intent:mood_good
 - perfect
 - very good
 - great
@@ -50,7 +46,7 @@
 - I am great
 - I'm good
 
-## intent:intent_mood_bad
+## intent:mood_bad
 - sad
 - very sad
 - unhappy
@@ -64,3 +60,20 @@
 - i feel like shit
 - i feel awful
 - i feel stressed
+
+## intent:get_time
+- hey can i get the time
+- can you give me the time
+- what time is it
+- what's the hour of the day
+- what's the hour
+- what's the time
+- give me the time
+- get the time
+
+
+
+
+
+
+

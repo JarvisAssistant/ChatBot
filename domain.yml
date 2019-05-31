@@ -1,13 +1,15 @@
 intents:
-  - intent_greet
-  - intent_goodbye
-  - intent_affirm
-  - intent_deny
-  - intent_mood_good
-  - intent_mood_bad
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_good
+  - mood_bad
+  - get_time
 
 actions:
   - action_out_of_scope
+  - action_get_time
   - utter_how_help
   - utter_goodbye
   - utter_affirm
