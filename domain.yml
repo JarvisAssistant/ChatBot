@@ -26,7 +26,6 @@ templates:
     - text: "Goodbye, Mr. Duran."
 
   utter_affirm:
-    - text: "Yes."
     - text: "As you please."
     - text: "As you wish."
     - text: "Of course."
@@ -43,6 +42,9 @@ templates:
     - text: "Hopefully you'll feel better later."
     - text: "Get better, sir."
     - text: "Feel better, sir."
+
+  utter_give_time:
+    - text: "It's {time}."
 
 
 

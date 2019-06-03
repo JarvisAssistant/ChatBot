@@ -22,7 +22,7 @@ class ActionGetTime(Action):
 			dispatcher.utter_message("Looks like an error has occured with the action.")
 			return[Restarted()]
 
-		dispatcher.utter_message("The time is %d:%d." % (data['hour'], data['minute']))
+		dispatcher.utter_template("utter_give_time", tracker, time=("%d:%02d" % (data['hour'], data['minute'])))
 		return []
 
 
